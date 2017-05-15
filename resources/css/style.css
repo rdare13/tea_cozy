@@ -1,0 +1,126 @@
+/* Tea Cozy CSS */
+
+html {
+  background-color: black;
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  opacity: 0.9;
+  text-align: center;
+}
+
+body {
+  margin: 0;
+}
+
+header {
+  position: fixed;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  height: 69px;
+  width: 100%;
+  background-color: black;
+  border-bottom: 1px solid seashell;
+}
+
+nav a {
+  color: seashell;
+  text-decoration: underline;
+  padding: 0px 15px;
+}
+
+nav ul {
+  display: inline-flex;
+  flex-grow: 1;
+  list-style: none;
+}
+
+footer {
+  text-align: left;
+  margin-left: 20px
+}
+
+.logo img {
+  height: 50px;
+  margin-left: 10px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.mission {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 700px;
+  width: 1200px;
+  background-image: url(../images/img-mission-background.jpg);
+}
+
+.mission h2, h4 {
+  background-color: black;
+  width: 100%;
+  padding: 10px 0px;
+  margin: 0 auto;
+}
+
+.tea-month {
+  padding: 40px 0px;
+  width: 1200px;
+}
+
+.item-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.item {
+  margin: 20px;
+}
+
+.item-photo {
+  height: 200px;
+  width: 300px;
+  margin-bottom: 10px;
+}
+
+.locations {
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
+  height: 500px;
+  padding-top: 70px;
+}
+
+.location-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: stretch;
+}
+
+.location {
+  opacity: 1;
+  background-color: black;
+  flex-basis: 280px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 10px;
+  margin: 5px 20px;
+}
+
+.location span {
+  padding: 10px;
+}
+
+.contact {
+  height: 200px;
+}
